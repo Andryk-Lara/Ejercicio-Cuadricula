@@ -1,0 +1,12 @@
+@import './sass/generales/settings';
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@import './sass/negros/negros';
+@import './sass/blancos/blancos';
+
+
