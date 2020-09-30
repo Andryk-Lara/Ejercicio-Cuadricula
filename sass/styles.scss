@@ -1,12 +1,22 @@
 @import './sass/generales/settings';
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+.box div {
+    float: left;
+    width: 100px;
+    height: 100px; 
+}
+.impar div:nth-child(odd) {
+    background-color: #a17d3b; 
 }
 
-@import './sass/negros/negros';
-@import './sass/blancos/blancos';
+.impar div:nth-child(even) {
+    background-color: #383220;
+}
 
+.par div:nth-child(even) {
+    background-color: #a17d3b; 
+}
 
+.par div:nth-child(odd) {
+    background-color: #383220; 
+}

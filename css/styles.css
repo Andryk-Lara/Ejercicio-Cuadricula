@@ -1,5 +1,5 @@
 body {
-  width: 700px;
+  width: 800px;
   margin: 0 auto; }
 
 .clearfix::after {
@@ -7,14 +7,19 @@ body {
   clear: both;
   display: table; }
 
-.negros {
-  background-color: black;
+.box div {
+  float: left;
   width: 100px;
-  height: 100px;
-  float: left; }
+  height: 100px; }
 
-.blancos {
-  background-color: white;
-  width: 100px;
-  height: 100px;
-  float: left; }
+.impar div:nth-child(odd) {
+  background-color: #a17d3b; }
+
+.impar div:nth-child(even) {
+  background-color: #383220; }
+
+.par div:nth-child(even) {
+  background-color: #a17d3b; }
+
+.par div:nth-child(odd) {
+  background-color: #383220; }
